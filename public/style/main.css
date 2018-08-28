@@ -1,0 +1,36 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+/* скрывает сообщение на русском пока переводиться текст */
+.hide {
+  display: none;
+}
+
+
+.container {
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 20px;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+
+.ip, .country {
+  background-color: purple;
+  color: #fff;
+  display: inline-block;
+  padding: 15px 50px;
+  border-radius: 10px;
+  margin: 10px 35px;
+}
+
+.translate {
+  font-style: italic;
+  font-weight: bold;
+  padding: 20px 10px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 30px 1px rgba(0,0,0,0.75);
+}
